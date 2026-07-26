@@ -13,3 +13,4 @@ Hakee GitHub-repot ja tekee niistä LinkedIn-postausluonnoksen. Olisin halunnut,
 1. Kloonaa repo
 2. Avaa `index.html` selaimessa (esim. Live Server -laajennuksella)
 3. Sivu hakee automaattisesti GitHub-repot ja näyttää ne postausluonnoksina
+🔗 [Kokeile sovellusta täällä](https://tonyweckstrom1987.github.io/github-linkedin-post/)
