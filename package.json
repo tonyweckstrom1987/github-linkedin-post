@@ -1,0 +1,14 @@
+{
+  "name": "github-linkedin-post",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hakee GitHub-repot ja muotoilee niistä LinkedIn-postausluonnokset.",
+  "main": "script.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.1"
+  },
+  "license": "MIT"
+}
