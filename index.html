@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GitHub → LinkedIn -postausgeneraattori</title>
+    <meta name="description" content="Hakee GitHub-repot ja muotoilee niistä valmiit LinkedIn-postausluonnokset kopioitavaksi.">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+            max-width: 700px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            line-height: 1.5;
+            color: #1a1a1a;
+        }
+        h1 {
+            font-size: 1.5rem;
+        }
+        .repo-card {
+            margin-bottom: 1rem;
+        }
+        .repo-name {
+            font-weight: bold;
+            margin-bottom: 0.25rem;
+        }
+        .repo-description {
+            color: #444;
+        }
+        .repo-date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        button {
+            cursor: pointer;
+            padding: 0.4rem 0.8rem;
+        }
+        .loading, .empty {
+            color: #666;
+        }
+        .error {
+            color: #b00020;
+        }
+    </style>
 </head>
 <body>
 <h1>github-linkedin-post</h1>
+<p>Sovellus hakee GitHub-repot ja muotoilee niistä valmiit LinkedIn-postausluonnokset, jotka voit kopioida leikepöydälle.</p>
 <div id="repot"></div>
     <script src="script.js"></script>
 </body>
