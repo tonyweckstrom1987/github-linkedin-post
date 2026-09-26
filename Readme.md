@@ -1,8 +1,11 @@
 # github-linkedin-post
 
-[![CI](https://github.com/tonyweckstrom1987/github-linkedin-post/actions/workflows/ci.yml/badge.svg)](https://github.com/tonyweckstrom1987/github-linkedin-post/actions/workflows/ci.yml)
+Hakee GitHub-repot ja muotoilee niistä valmiit LinkedIn-postausluonnokset kopioitavaksi.
 
-Hakee GitHub-repot ja tekee niistä LinkedIn-postausluonnoksen. Olisin halunnut, että koko prosessi tapahtuu kokonaan automaattisesti, valitettavasti LinkedInin rajapinta olisi edellyttänyt minulta firmaa jotta tämä olisi onnistunut. Sovellus näyttää GitHub-repot valmiiksi muotoiltuna tekstinä, ja käyttäjä kopioi sen itse LinkedIniin — koska LinkedInin postaus-API ei ole avoin yksityishenkilöille.
+[![CI](https://github.com/tonyweckstrom1987/github-linkedin-post/actions/workflows/ci.yml/badge.svg)](https://github.com/tonyweckstrom1987/github-linkedin-post/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/tonyweckstrom1987/github-linkedin-post/blob/main/LICENSE)
+
+Olisin halunnut, että koko prosessi tapahtuu kokonaan automaattisesti, valitettavasti LinkedInin rajapinta olisi edellyttänyt minulta firmaa jotta tämä olisi onnistunut. Sovellus näyttää GitHub-repot valmiiksi muotoiltuna tekstinä, ja käyttäjä kopioi sen itse LinkedIniin — koska LinkedInin postaus-API ei ole avoin yksityishenkilöille.
 
 🔗 [Kokeile sovellusta täällä](https://tonyweckstrom1987.github.io/github-linkedin-post/)
 
