@@ -10,5 +10,6 @@
   "devDependencies": {
     "jsdom": "^30.1.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "author": "tonyweckstrom1987"
 }
